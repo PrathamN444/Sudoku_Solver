@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gentium Book Plus', serif;
+    background-color: rgb(243 230 207);;
+}
+    
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: blanchedalmond;
+} 
+
+#name{
+    width: 60%;
+    padding-left: 590px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+
+    margin: 10px auto ;
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    color: black;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin: 30px 0px 60px 0px;
+}
+
+#GetPuzzle,#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #538fbe;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+}
+
+#GetPuzzle:hover, #SolvePuzzle:hover{
+    background-color: #2d6898;
+    color: white;
+    cursor: pointer;
+}
+
+.box1, .box2, .box3{
+    background-color: white;
+    border: 1px solid  black;
+}
+
+.box1:hover, .box2:hover, .box3:hover{
+    background-color: #81e2e6;
+}
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
+
+
+
+
